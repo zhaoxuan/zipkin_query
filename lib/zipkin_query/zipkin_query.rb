@@ -142,7 +142,7 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'getTraceSummariesByIds failed: unknown result')
       end
 
-      def getTraceCombosByIds(trace_ids, adjust)
+      def getTraceCombosByIds(trace_ids, adjust=[1])
         send_getTraceCombosByIds(trace_ids, adjust)
         return recv_getTraceCombosByIds()
       end
