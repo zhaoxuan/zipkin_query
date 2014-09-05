@@ -1,0 +1,256 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Adjust	zipkin_query_types.rb	/^  module Adjust$/;"	m	class:Zipkin
+Annotation	zipkin_core_types.rb	/^  class Annotation$/;"	c	class:Zipkin
+AnnotationType	zipkin_core_types.rb	/^  module AnnotationType$/;"	m	class:Zipkin
+BinaryAnnotation	zipkin_core_types.rb	/^  class BinaryAnnotation$/;"	c	class:Zipkin
+Client	zipkin_query.rb	/^    class Client$/;"	c	class:Zipkin.ZipkinQuery
+Dependencies	zipkin_dependencies_types.rb	/^  class Dependencies$/;"	c	class:Zipkin
+DependencyLink	zipkin_dependencies_types.rb	/^  class DependencyLink$/;"	c	class:Zipkin
+Endpoint	zipkin_core_types.rb	/^  class Endpoint$/;"	c	class:Zipkin
+GetDataTimeToLive_args	zipkin_query.rb	/^    class GetDataTimeToLive_args$/;"	c	class:Zipkin.ZipkinQuery
+GetDataTimeToLive_result	zipkin_query.rb	/^    class GetDataTimeToLive_result$/;"	c	class:Zipkin.ZipkinQuery
+GetDependencies_args	zipkin_query.rb	/^    class GetDependencies_args$/;"	c	class:Zipkin.ZipkinQuery
+GetDependencies_result	zipkin_query.rb	/^    class GetDependencies_result$/;"	c	class:Zipkin.ZipkinQuery
+GetServiceNamesToTraceIds_args	zipkin_query.rb	/^    class GetServiceNamesToTraceIds_args$/;"	c	class:Zipkin.ZipkinQuery
+GetServiceNamesToTraceIds_result	zipkin_query.rb	/^    class GetServiceNamesToTraceIds_result$/;"	c	class:Zipkin.ZipkinQuery
+GetServiceNames_args	zipkin_query.rb	/^    class GetServiceNames_args$/;"	c	class:Zipkin.ZipkinQuery
+GetServiceNames_result	zipkin_query.rb	/^    class GetServiceNames_result$/;"	c	class:Zipkin.ZipkinQuery
+GetSpanDurations_args	zipkin_query.rb	/^    class GetSpanDurations_args$/;"	c	class:Zipkin.ZipkinQuery
+GetSpanDurations_result	zipkin_query.rb	/^    class GetSpanDurations_result$/;"	c	class:Zipkin.ZipkinQuery
+GetSpanNames_args	zipkin_query.rb	/^    class GetSpanNames_args$/;"	c	class:Zipkin.ZipkinQuery
+GetSpanNames_result	zipkin_query.rb	/^    class GetSpanNames_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTopAnnotations_args	zipkin_query.rb	/^    class GetTopAnnotations_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTopAnnotations_result	zipkin_query.rb	/^    class GetTopAnnotations_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTopKeyValueAnnotations_args	zipkin_query.rb	/^    class GetTopKeyValueAnnotations_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTopKeyValueAnnotations_result	zipkin_query.rb	/^    class GetTopKeyValueAnnotations_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceCombosByIds_args	zipkin_query.rb	/^    class GetTraceCombosByIds_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceCombosByIds_result	zipkin_query.rb	/^    class GetTraceCombosByIds_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIdsByAnnotation_args	zipkin_query.rb	/^    class GetTraceIdsByAnnotation_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIdsByAnnotation_result	zipkin_query.rb	/^    class GetTraceIdsByAnnotation_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIdsByServiceName_args	zipkin_query.rb	/^    class GetTraceIdsByServiceName_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIdsByServiceName_result	zipkin_query.rb	/^    class GetTraceIdsByServiceName_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIdsBySpanName_args	zipkin_query.rb	/^    class GetTraceIdsBySpanName_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIdsBySpanName_result	zipkin_query.rb	/^    class GetTraceIdsBySpanName_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIds_args	zipkin_query.rb	/^    class GetTraceIds_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceIds_result	zipkin_query.rb	/^    class GetTraceIds_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceSummariesByIds_args	zipkin_query.rb	/^    class GetTraceSummariesByIds_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceSummariesByIds_result	zipkin_query.rb	/^    class GetTraceSummariesByIds_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceTimeToLive_args	zipkin_query.rb	/^    class GetTraceTimeToLive_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceTimeToLive_result	zipkin_query.rb	/^    class GetTraceTimeToLive_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceTimelinesByIds_args	zipkin_query.rb	/^    class GetTraceTimelinesByIds_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTraceTimelinesByIds_result	zipkin_query.rb	/^    class GetTraceTimelinesByIds_result$/;"	c	class:Zipkin.ZipkinQuery
+GetTracesByIds_args	zipkin_query.rb	/^    class GetTracesByIds_args$/;"	c	class:Zipkin.ZipkinQuery
+GetTracesByIds_result	zipkin_query.rb	/^    class GetTracesByIds_result$/;"	c	class:Zipkin.ZipkinQuery
+Moments	zipkin_dependencies_types.rb	/^  class Moments$/;"	c	class:Zipkin
+Order	zipkin_query_types.rb	/^  module Order$/;"	m	class:Zipkin
+Processor	zipkin_query.rb	/^    class Processor$/;"	c	class:Zipkin.ZipkinQuery
+QueryException	zipkin_query_types.rb	/^  class QueryException < ::Thrift::Exception$/;"	c	class:Zipkin
+QueryRequest	zipkin_query_types.rb	/^  class QueryRequest$/;"	c	class:Zipkin
+QueryResponse	zipkin_query_types.rb	/^  class QueryResponse$/;"	c	class:Zipkin
+SetTraceTimeToLive_args	zipkin_query.rb	/^    class SetTraceTimeToLive_args$/;"	c	class:Zipkin.ZipkinQuery
+SetTraceTimeToLive_result	zipkin_query.rb	/^    class SetTraceTimeToLive_result$/;"	c	class:Zipkin.ZipkinQuery
+Span	zipkin_core_types.rb	/^  class Span$/;"	c	class:Zipkin
+TimelineAnnotation	zipkin_query_types.rb	/^  class TimelineAnnotation$/;"	c	class:Zipkin
+Trace	zipkin_query_types.rb	/^  class Trace$/;"	c	class:Zipkin
+TraceCombo	zipkin_query_types.rb	/^  class TraceCombo$/;"	c	class:Zipkin
+TraceSummary	zipkin_query_types.rb	/^  class TraceSummary$/;"	c	class:Zipkin
+TraceTimeline	zipkin_query_types.rb	/^  class TraceTimeline$/;"	c	class:Zipkin
+TracesExist_args	zipkin_query.rb	/^    class TracesExist_args$/;"	c	class:Zipkin.ZipkinQuery
+TracesExist_result	zipkin_query.rb	/^    class TracesExist_result$/;"	c	class:Zipkin.ZipkinQuery
+Zipkin	zipkin_core_constants.rb	/^module Zipkin$/;"	m
+Zipkin	zipkin_core_types.rb	/^module Zipkin$/;"	m
+Zipkin	zipkin_dependencies_constants.rb	/^module Zipkin$/;"	m
+Zipkin	zipkin_dependencies_types.rb	/^module Zipkin$/;"	m
+Zipkin	zipkin_query.rb	/^module Zipkin$/;"	m
+Zipkin	zipkin_query_constants.rb	/^module Zipkin$/;"	m
+Zipkin	zipkin_query_types.rb	/^module Zipkin$/;"	m
+ZipkinQuery	zipkin_query.rb	/^  module ZipkinQuery$/;"	m	class:Zipkin
+getDataTimeToLive	zipkin_query.rb	/^      def getDataTimeToLive()$/;"	f	class:Zipkin.ZipkinQuery.Client
+getDependencies	zipkin_query.rb	/^      def getDependencies(start_time, end_time)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getServiceNames	zipkin_query.rb	/^      def getServiceNames()$/;"	f	class:Zipkin.ZipkinQuery.Client
+getServiceNamesToTraceIds	zipkin_query.rb	/^      def getServiceNamesToTraceIds(time_stamp, service_name, rpc_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getSpanDurations	zipkin_query.rb	/^      def getSpanDurations(time_stamp, service_name, rpc_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getSpanNames	zipkin_query.rb	/^      def getSpanNames(service_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTopAnnotations	zipkin_query.rb	/^      def getTopAnnotations(service_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTopKeyValueAnnotations	zipkin_query.rb	/^      def getTopKeyValueAnnotations(service_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceCombosByIds	zipkin_query.rb	/^      def getTraceCombosByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceIds	zipkin_query.rb	/^      def getTraceIds(request)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceIdsByAnnotation	zipkin_query.rb	/^      def getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceIdsByServiceName	zipkin_query.rb	/^      def getTraceIdsByServiceName(service_name, end_ts, limit, order)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceIdsBySpanName	zipkin_query.rb	/^      def getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceSummariesByIds	zipkin_query.rb	/^      def getTraceSummariesByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceTimeToLive	zipkin_query.rb	/^      def getTraceTimeToLive(trace_id)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTraceTimelinesByIds	zipkin_query.rb	/^      def getTraceTimelinesByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+getTracesByIds	zipkin_query.rb	/^      def getTracesByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+initialize	zipkin_query_types.rb	/^    def initialize(message=nil)$/;"	f	class:Zipkin.QueryException
+message	zipkin_query_types.rb	/^    def message; msg end$/;"	f	class:Zipkin.QueryException
+process_getDataTimeToLive	zipkin_query.rb	/^      def process_getDataTimeToLive(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getDependencies	zipkin_query.rb	/^      def process_getDependencies(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getServiceNames	zipkin_query.rb	/^      def process_getServiceNames(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getServiceNamesToTraceIds	zipkin_query.rb	/^      def process_getServiceNamesToTraceIds(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getSpanDurations	zipkin_query.rb	/^      def process_getSpanDurations(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getSpanNames	zipkin_query.rb	/^      def process_getSpanNames(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTopAnnotations	zipkin_query.rb	/^      def process_getTopAnnotations(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTopKeyValueAnnotations	zipkin_query.rb	/^      def process_getTopKeyValueAnnotations(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceCombosByIds	zipkin_query.rb	/^      def process_getTraceCombosByIds(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceIds	zipkin_query.rb	/^      def process_getTraceIds(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceIdsByAnnotation	zipkin_query.rb	/^      def process_getTraceIdsByAnnotation(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceIdsByServiceName	zipkin_query.rb	/^      def process_getTraceIdsByServiceName(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceIdsBySpanName	zipkin_query.rb	/^      def process_getTraceIdsBySpanName(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceSummariesByIds	zipkin_query.rb	/^      def process_getTraceSummariesByIds(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceTimeToLive	zipkin_query.rb	/^      def process_getTraceTimeToLive(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTraceTimelinesByIds	zipkin_query.rb	/^      def process_getTraceTimelinesByIds(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_getTracesByIds	zipkin_query.rb	/^      def process_getTracesByIds(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_setTraceTimeToLive	zipkin_query.rb	/^      def process_setTraceTimeToLive(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+process_tracesExist	zipkin_query.rb	/^      def process_tracesExist(seqid, iprot, oprot)$/;"	f	class:Zipkin.ZipkinQuery.Processor
+recv_getDataTimeToLive	zipkin_query.rb	/^      def recv_getDataTimeToLive()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getDependencies	zipkin_query.rb	/^      def recv_getDependencies()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getServiceNames	zipkin_query.rb	/^      def recv_getServiceNames()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getServiceNamesToTraceIds	zipkin_query.rb	/^      def recv_getServiceNamesToTraceIds()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getSpanDurations	zipkin_query.rb	/^      def recv_getSpanDurations()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getSpanNames	zipkin_query.rb	/^      def recv_getSpanNames()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTopAnnotations	zipkin_query.rb	/^      def recv_getTopAnnotations()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTopKeyValueAnnotations	zipkin_query.rb	/^      def recv_getTopKeyValueAnnotations()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceCombosByIds	zipkin_query.rb	/^      def recv_getTraceCombosByIds()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceIds	zipkin_query.rb	/^      def recv_getTraceIds()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceIdsByAnnotation	zipkin_query.rb	/^      def recv_getTraceIdsByAnnotation()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceIdsByServiceName	zipkin_query.rb	/^      def recv_getTraceIdsByServiceName()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceIdsBySpanName	zipkin_query.rb	/^      def recv_getTraceIdsBySpanName()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceSummariesByIds	zipkin_query.rb	/^      def recv_getTraceSummariesByIds()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceTimeToLive	zipkin_query.rb	/^      def recv_getTraceTimeToLive()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTraceTimelinesByIds	zipkin_query.rb	/^      def recv_getTraceTimelinesByIds()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_getTracesByIds	zipkin_query.rb	/^      def recv_getTracesByIds()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_setTraceTimeToLive	zipkin_query.rb	/^      def recv_setTraceTimeToLive()$/;"	f	class:Zipkin.ZipkinQuery.Client
+recv_tracesExist	zipkin_query.rb	/^      def recv_tracesExist()$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getDataTimeToLive	zipkin_query.rb	/^      def send_getDataTimeToLive()$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getDependencies	zipkin_query.rb	/^      def send_getDependencies(start_time, end_time)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getServiceNames	zipkin_query.rb	/^      def send_getServiceNames()$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getServiceNamesToTraceIds	zipkin_query.rb	/^      def send_getServiceNamesToTraceIds(time_stamp, service_name, rpc_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getSpanDurations	zipkin_query.rb	/^      def send_getSpanDurations(time_stamp, service_name, rpc_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getSpanNames	zipkin_query.rb	/^      def send_getSpanNames(service_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTopAnnotations	zipkin_query.rb	/^      def send_getTopAnnotations(service_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTopKeyValueAnnotations	zipkin_query.rb	/^      def send_getTopKeyValueAnnotations(service_name)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceCombosByIds	zipkin_query.rb	/^      def send_getTraceCombosByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceIds	zipkin_query.rb	/^      def send_getTraceIds(request)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceIdsByAnnotation	zipkin_query.rb	/^      def send_getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceIdsByServiceName	zipkin_query.rb	/^      def send_getTraceIdsByServiceName(service_name, end_ts, limit, order)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceIdsBySpanName	zipkin_query.rb	/^      def send_getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceSummariesByIds	zipkin_query.rb	/^      def send_getTraceSummariesByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceTimeToLive	zipkin_query.rb	/^      def send_getTraceTimeToLive(trace_id)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTraceTimelinesByIds	zipkin_query.rb	/^      def send_getTraceTimelinesByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_getTracesByIds	zipkin_query.rb	/^      def send_getTracesByIds(trace_ids, adjust)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_setTraceTimeToLive	zipkin_query.rb	/^      def send_setTraceTimeToLive(trace_id, ttl_seconds)$/;"	f	class:Zipkin.ZipkinQuery.Client
+send_tracesExist	zipkin_query.rb	/^      def send_tracesExist(trace_ids)$/;"	f	class:Zipkin.ZipkinQuery.Client
+setTraceTimeToLive	zipkin_query.rb	/^      def setTraceTimeToLive(trace_id, ttl_seconds)$/;"	f	class:Zipkin.ZipkinQuery.Client
+struct_fields	zipkin_core_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.Annotation
+struct_fields	zipkin_core_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.BinaryAnnotation
+struct_fields	zipkin_core_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.Endpoint
+struct_fields	zipkin_core_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.Span
+struct_fields	zipkin_dependencies_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.Dependencies
+struct_fields	zipkin_dependencies_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.DependencyLink
+struct_fields	zipkin_dependencies_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.Moments
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetDataTimeToLive_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetDataTimeToLive_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetDependencies_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetDependencies_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNamesToTraceIds_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNamesToTraceIds_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNames_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNames_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetSpanDurations_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetSpanDurations_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetSpanNames_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetSpanNames_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTopAnnotations_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTopAnnotations_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTopKeyValueAnnotations_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTopKeyValueAnnotations_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceCombosByIds_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceCombosByIds_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByAnnotation_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByAnnotation_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByServiceName_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByServiceName_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsBySpanName_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsBySpanName_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIds_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIds_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceSummariesByIds_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceSummariesByIds_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimeToLive_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimeToLive_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimelinesByIds_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimelinesByIds_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTracesByIds_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.GetTracesByIds_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.SetTraceTimeToLive_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.SetTraceTimeToLive_result
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.TracesExist_args
+struct_fields	zipkin_query.rb	/^      def struct_fields; FIELDS; end$/;"	f	class:Zipkin.ZipkinQuery.TracesExist_result
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.QueryException
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.QueryRequest
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.QueryResponse
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.TimelineAnnotation
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.Trace
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.TraceCombo
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.TraceSummary
+struct_fields	zipkin_query_types.rb	/^    def struct_fields; FIELDS; end$/;"	f	class:Zipkin.TraceTimeline
+tracesExist	zipkin_query.rb	/^      def tracesExist(trace_ids)$/;"	f	class:Zipkin.ZipkinQuery.Client
+validate	zipkin_core_types.rb	/^    def validate$/;"	f	class:Zipkin.Annotation
+validate	zipkin_core_types.rb	/^    def validate$/;"	f	class:Zipkin.BinaryAnnotation
+validate	zipkin_core_types.rb	/^    def validate$/;"	f	class:Zipkin.Endpoint
+validate	zipkin_core_types.rb	/^    def validate$/;"	f	class:Zipkin.Span
+validate	zipkin_dependencies_types.rb	/^    def validate$/;"	f	class:Zipkin.Dependencies
+validate	zipkin_dependencies_types.rb	/^    def validate$/;"	f	class:Zipkin.DependencyLink
+validate	zipkin_dependencies_types.rb	/^    def validate$/;"	f	class:Zipkin.Moments
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetDataTimeToLive_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetDataTimeToLive_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetDependencies_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetDependencies_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNamesToTraceIds_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNamesToTraceIds_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNames_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetServiceNames_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetSpanDurations_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetSpanDurations_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetSpanNames_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetSpanNames_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTopAnnotations_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTopAnnotations_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTopKeyValueAnnotations_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTopKeyValueAnnotations_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceCombosByIds_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceCombosByIds_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByAnnotation_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByAnnotation_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByServiceName_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsByServiceName_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsBySpanName_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIdsBySpanName_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIds_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceIds_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceSummariesByIds_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceSummariesByIds_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimeToLive_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimeToLive_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimelinesByIds_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTraceTimelinesByIds_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTracesByIds_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.GetTracesByIds_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.SetTraceTimeToLive_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.SetTraceTimeToLive_result
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.TracesExist_args
+validate	zipkin_query.rb	/^      def validate$/;"	f	class:Zipkin.ZipkinQuery.TracesExist_result
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.QueryException
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.QueryRequest
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.QueryResponse
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.TimelineAnnotation
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.Trace
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.TraceCombo
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.TraceSummary
+validate	zipkin_query_types.rb	/^    def validate$/;"	f	class:Zipkin.TraceTimeline
