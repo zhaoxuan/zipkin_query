@@ -1,4 +1,4 @@
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 
 Gem::Specification.new do |s|
   s.name          = "zipkin_query"

@@ -28,13 +28,13 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'getTraceIds failed: unknown result')
       end
 
-      def getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order)
-        send_getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order)
+      def getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order, start_ts = 0)
+        send_getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order, start_ts)
         return recv_getTraceIdsBySpanName()
       end
 
-      def send_getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order)
-        send_message('getTraceIdsBySpanName', GetTraceIdsBySpanName_args, :service_name => service_name, :span_name => span_name, :end_ts => end_ts, :limit => limit, :order => order)
+      def send_getTraceIdsBySpanName(service_name, span_name, end_ts, limit, order, start_ts)
+        send_message('getTraceIdsBySpanName', GetTraceIdsBySpanName_args, :service_name => service_name, :span_name => span_name, :end_ts => end_ts, :limit => limit, :order => order, :start_ts => start_ts)
       end
 
       def recv_getTraceIdsBySpanName()
@@ -44,13 +44,13 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'getTraceIdsBySpanName failed: unknown result')
       end
 
-      def getTraceIdsByServiceName(service_name, end_ts, limit, order)
-        send_getTraceIdsByServiceName(service_name, end_ts, limit, order)
+      def getTraceIdsByServiceName(service_name, end_ts, limit, order, start_ts = 0)
+        send_getTraceIdsByServiceName(service_name, end_ts, limit, order, start_ts)
         return recv_getTraceIdsByServiceName()
       end
 
-      def send_getTraceIdsByServiceName(service_name, end_ts, limit, order)
-        send_message('getTraceIdsByServiceName', GetTraceIdsByServiceName_args, :service_name => service_name, :end_ts => end_ts, :limit => limit, :order => order)
+      def send_getTraceIdsByServiceName(service_name, end_ts, limit, order, start_ts)
+        send_message('getTraceIdsByServiceName', GetTraceIdsByServiceName_args, :service_name => service_name, :end_ts => end_ts, :limit => limit, :order => order, :start_ts => start_ts)
       end
 
       def recv_getTraceIdsByServiceName()
@@ -60,13 +60,13 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'getTraceIdsByServiceName failed: unknown result')
       end
 
-      def getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order)
-        send_getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order)
+      def getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order, start_ts = 0)
+        send_getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order, start_ts)
         return recv_getTraceIdsByAnnotation()
       end
 
-      def send_getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order)
-        send_message('getTraceIdsByAnnotation', GetTraceIdsByAnnotation_args, :service_name => service_name, :annotation => annotation, :value => value, :end_ts => end_ts, :limit => limit, :order => order)
+      def send_getTraceIdsByAnnotation(service_name, annotation, value, end_ts, limit, order, start_ts)
+        send_message('getTraceIdsByAnnotation', GetTraceIdsByAnnotation_args, :service_name => service_name, :annotation => annotation, :value => value, :end_ts => end_ts, :limit => limit, :order => order, :start_ts => start_ts)
       end
 
       def recv_getTraceIdsByAnnotation()
@@ -92,7 +92,7 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'tracesExist failed: unknown result')
       end
 
-      def getTracesByIds(trace_ids, adjust)
+      def getTracesByIds(trace_ids, adjust=[])
         send_getTracesByIds(trace_ids, adjust)
         return recv_getTracesByIds()
       end
@@ -124,9 +124,7 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'getTraceTimelinesByIds failed: unknown result')
       end
 
-      # set adjust = [1]
-      # more info to see zipkinQuery.thrift line 79
-      def getTraceSummariesByIds(trace_ids, adjust=[1])
+      def getTraceSummariesByIds(trace_ids, adjust)
         send_getTraceSummariesByIds(trace_ids, adjust)
         return recv_getTraceSummariesByIds()
       end
@@ -142,7 +140,7 @@ module Zipkin
         raise ::Thrift::ApplicationException.new(::Thrift::ApplicationException::MISSING_RESULT, 'getTraceSummariesByIds failed: unknown result')
       end
 
-      def getTraceCombosByIds(trace_ids, adjust=[1])
+      def getTraceCombosByIds(trace_ids, adjust)
         send_getTraceCombosByIds(trace_ids, adjust)
         return recv_getTraceCombosByIds()
       end
@@ -335,7 +333,7 @@ module Zipkin
         args = read_args(iprot, GetTraceIdsBySpanName_args)
         result = GetTraceIdsBySpanName_result.new()
         begin
-          result.success = @handler.getTraceIdsBySpanName(args.service_name, args.span_name, args.end_ts, args.limit, args.order)
+          result.success = @handler.getTraceIdsBySpanName(args.service_name, args.span_name, args.end_ts, args.limit, args.order, args.start_ts)
         rescue ::Zipkin::QueryException => qe
           result.qe = qe
         end
@@ -346,7 +344,7 @@ module Zipkin
         args = read_args(iprot, GetTraceIdsByServiceName_args)
         result = GetTraceIdsByServiceName_result.new()
         begin
-          result.success = @handler.getTraceIdsByServiceName(args.service_name, args.end_ts, args.limit, args.order)
+          result.success = @handler.getTraceIdsByServiceName(args.service_name, args.end_ts, args.limit, args.order, args.start_ts)
         rescue ::Zipkin::QueryException => qe
           result.qe = qe
         end
@@ -357,7 +355,7 @@ module Zipkin
         args = read_args(iprot, GetTraceIdsByAnnotation_args)
         result = GetTraceIdsByAnnotation_result.new()
         begin
-          result.success = @handler.getTraceIdsByAnnotation(args.service_name, args.annotation, args.value, args.end_ts, args.limit, args.order)
+          result.success = @handler.getTraceIdsByAnnotation(args.service_name, args.annotation, args.value, args.end_ts, args.limit, args.order, args.start_ts)
         rescue ::Zipkin::QueryException => qe
           result.qe = qe
         end
@@ -566,13 +564,15 @@ module Zipkin
       END_TS = 4
       LIMIT = 5
       ORDER = 6
+      START_TS = 7
 
       FIELDS = {
         SERVICE_NAME => {:type => ::Thrift::Types::STRING, :name => 'service_name'},
         SPAN_NAME => {:type => ::Thrift::Types::STRING, :name => 'span_name'},
         END_TS => {:type => ::Thrift::Types::I64, :name => 'end_ts'},
         LIMIT => {:type => ::Thrift::Types::I32, :name => 'limit'},
-        ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order}
+        ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order},
+        START_TS => {:type => ::Thrift::Types::I64, :name => 'start_ts'}
       }
 
       def struct_fields; FIELDS; end
@@ -610,12 +610,14 @@ module Zipkin
       END_TS = 3
       LIMIT = 4
       ORDER = 5
+      START_TS = 6
 
       FIELDS = {
         SERVICE_NAME => {:type => ::Thrift::Types::STRING, :name => 'service_name'},
         END_TS => {:type => ::Thrift::Types::I64, :name => 'end_ts'},
         LIMIT => {:type => ::Thrift::Types::I32, :name => 'limit'},
-        ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order}
+        ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order},
+        START_TS => {:type => ::Thrift::Types::I64, :name => 'start_ts'}
       }
 
       def struct_fields; FIELDS; end
@@ -655,6 +657,7 @@ module Zipkin
       END_TS = 5
       LIMIT = 6
       ORDER = 7
+      START_TS = 8
 
       FIELDS = {
         SERVICE_NAME => {:type => ::Thrift::Types::STRING, :name => 'service_name'},
@@ -662,7 +665,8 @@ module Zipkin
         VALUE => {:type => ::Thrift::Types::STRING, :name => 'value', :binary => true},
         END_TS => {:type => ::Thrift::Types::I64, :name => 'end_ts'},
         LIMIT => {:type => ::Thrift::Types::I32, :name => 'limit'},
-        ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order}
+        ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order},
+        START_TS => {:type => ::Thrift::Types::I64, :name => 'start_ts'}
       }
 
       def struct_fields; FIELDS; end

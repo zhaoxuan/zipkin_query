@@ -177,6 +177,7 @@ module Zipkin
     END_TS = 5
     LIMIT = 6
     ORDER = 7
+    START_TS = 8
 
     FIELDS = {
       SERVICE_NAME => {:type => ::Thrift::Types::STRING, :name => 'service_name'},
@@ -185,7 +186,8 @@ module Zipkin
       BINARY_ANNOTATIONS => {:type => ::Thrift::Types::LIST, :name => 'binary_annotations', :element => {:type => ::Thrift::Types::STRUCT, :class => ::Zipkin::BinaryAnnotation}, :optional => true},
       END_TS => {:type => ::Thrift::Types::I64, :name => 'end_ts'},
       LIMIT => {:type => ::Thrift::Types::I32, :name => 'limit'},
-      ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order}
+      ORDER => {:type => ::Thrift::Types::I32, :name => 'order', :enum_class => ::Zipkin::Order},
+      START_TS => {:type => ::Thrift::Types::I64, :name => 'start_ts'}
     }
 
     def struct_fields; FIELDS; end
